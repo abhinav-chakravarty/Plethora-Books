@@ -38,7 +38,26 @@ Slider Section
 .carousel-inner{	
 	height: 30%;	
 }
+.btnclass{
+	background: #000;
+	color: #fff;
+	border-radius: 30px;
+	transition: all .25s ease;
+}
 
+.btnclass::after,.btnclass::before{
+	content: '';
+	position: absolute;
+	opacity: .3;
+	
+	border-radius: inherit;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	bottom: 0px;
+	z-index: -1;
+	transition: all.25s ease;
+}
 /*
 Our Mission Section
 */
