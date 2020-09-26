@@ -350,3 +350,68 @@ Special Thanks Section
 }
 
 .close:hover { background:red; }
+
+
+/**
+Forms
+**/
+
+.feedform{
+	background-color: #ca7968;
+	background-image: linear-gradient(315deg, #ca7968 0%, #0c0c0c 74%);
+	padding: 2%;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+	width: 30%;
+	height: 30%;
+
+}
+.feedform h2{
+	margin-top: 20px;
+	
+	color: white;
+	margin-bottom: 30px;
+}
+form input,textarea{
+	border: none;
+	background: none;
+	text-align: center;
+	outline: none;
+	padding: 10px;
+	margin: 20px;
+	color: white;
+	height: 30px;
+	width:70%;
+	border-radius: 40px;
+	transition: 0.2s ease-in;
+	
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea[type="textarea"]{
+	border:solid 2px #1B9CFC;
+	width: 90%;
+}
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea[type="textarea"]:focus{
+	width: 100%;
+	border:solid 2px #55E6C1;
+}
+.feedform button[type="submit"]{
+	border :solid 2px #55E6C1;
+	box-sizing: border-box;
+	height: 50px;
+	width: 40%;
+	cursor:pointer;
+	border-radius: 8px;
+
+}
+.feedform button:hover{
+	background: #55E6C1;
+	color: #182C61;
+}
