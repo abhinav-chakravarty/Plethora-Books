@@ -192,7 +192,7 @@ footer a{
 .image{
 	height: 20%;
 	width: 20%;
-	border: 1% solid #a4a4a4;
+	border: 0.5% solid #a4a4a4;
 }
 .link{
 	font-size: large;
