@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 /*
 Body Section
 */
 body{
 	background-color: #f9c1b1;
 	background-image: linear-gradient(315deg, #f9c1b1 0%, #fb8085 74%);
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 500;
 }
 
 /*
@@ -12,6 +15,7 @@ Navigation Bar Section
 .navbar-default{
 	background-color: #ca7968;
 	background-image: linear-gradient(315deg, #ca7968 0%, #0c0c0c 74%);
+	border: none;
 }
 .navbar-default .navbar-brand{
 	color: white;
